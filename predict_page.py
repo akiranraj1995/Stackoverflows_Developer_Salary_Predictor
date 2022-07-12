@@ -4,7 +4,7 @@ import pickle
 
 
 from PIL import Image
-image = Image.open('/home/expert/MY_END_TO_END_PROJECTS/ML_Project_Streamlit_End_TO_End_Project/large.jpeg')
+image = Image.open('/home/expert/MY_END_TO_END_PROJECTS/ML_Project_Streamlit_End_TO_End_Project/large.jpg')
 
 
 #LOAD MODEL FROM PICKLE
