@@ -4,7 +4,7 @@ import pickle
 
 
 from PIL import Image
-image = Image.open('/home/expert/MY_END_TO_END_PROJECTS/SoftwareDeveloperSurvey-Salary-Predictor-app/large.jpg')
+image = Image.open('large.jpg')
 
 
 #LOAD MODEL FROM PICKLE
