@@ -9,7 +9,7 @@ image = Image.open('large.jpg')
 
 #LOAD MODEL FROM PICKLE
 def load_model():
-    with open('saved_steps.pkl', "rb") as file:
+    with open('/home/expert/MY_END_TO_END_PROJECTS/SoftwareDeveloperSurvey-Salary-Predictor-app/saved_steps.pkl', "rb") as file:
         data = pickle.load(file)
     return data
 data=load_model()
