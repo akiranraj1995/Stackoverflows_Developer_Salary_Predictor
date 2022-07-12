@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 from PIL import Image
 
-image = Image.open('/home/expert/MY_END_TO_END_PROJECTS/SoftwareDeveloperSurvey-Salary-Predictor-app/large.jpg')
+image = Image.open('large.png')
 
 from predict_page import show_predict_page
 from plot_page import show_plot_page
