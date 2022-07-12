@@ -31,7 +31,7 @@ def cleaned_education(x):
 @st.cache
 def load_data():
     #Applying all tranformations
-    df = pd.read_csv('survey_results_public.csv')
+    df = pd.read_csv('/home/expert/MY_END_TO_END_PROJECTS/SoftwareDeveloperSurvey-Salary-Predictor-app/survey_results_public.csv')
     df = df[['EdLevel', 'Employment', 'YearsCodePro', 'ConvertedComp', 'Country']]
 
     df = df.rename({'ConvertedComp': 'Salary'}, axis=1)
