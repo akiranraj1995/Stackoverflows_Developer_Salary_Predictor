@@ -4,7 +4,7 @@ import pickle
 
 
 from PIL import Image
-image = Image.open('large.jpg')
+image = Image.open('large.png')
 
 
 #LOAD MODEL FROM PICKLE
